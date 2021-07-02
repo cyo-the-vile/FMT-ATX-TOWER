@@ -8,7 +8,7 @@ I would advise using the ITX minibix pico psu rated at 120watts and the EPS-120S
 
 To make yourself some boards you will want to send the gerber ZIP file to JLCPCB or another fabrication service.  
 
-Connector part number is PCN13-44S-2.54DS.  It's a connector still made but if you can't find it you can cannibalize a connector from your dead PSU
+Connector part number is PCN13-44S-2.54DS.  It's a connector still made but if you can't find it you can cannibalize a connector from your dead PSU.
 ATX connector part number is 39-28-1243.  You can also use the 20 pin connector but I cannot be asked to find the part number at this time.
 
 Program the Arduino Pro micro in Arduino IDE with INO file.  Usually it's identified as an Arduino Leonardo board.
