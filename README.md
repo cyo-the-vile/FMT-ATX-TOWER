@@ -14,3 +14,8 @@ ATX connector part number is 39-28-1243.  You can also use the 20 pin connector 
 Program the Arduino Pro micro in Arduino IDE with INO file.  Usually it's identified as an Arduino Leonardo board.
 
 Solder it all together and you have revived your dead computer.
+
+
+******************************************************
+
+Generation 1 Tower card will be added at a later time
