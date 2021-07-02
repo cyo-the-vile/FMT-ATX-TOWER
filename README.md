@@ -13,7 +13,7 @@ ATX connector part number is 39-28-1243.  You can also use the 20 pin connector 
 
 Program the Arduino Pro micro in Arduino IDE with INO file.  Usually it's identified as an Arduino Leonardo board.
 
-Solder it all together and you have revived your dead computer.
+Solder it all together and you have revived your dead computer. Oh don't forget the 2.54mm male pin headers. Solder two of them for the stock fan in the labeled area
 
 日本人にとって、機械翻訳です。 あなたが困難を持っている場合は、Twitterで私に連絡してください。@cyothevile
 
