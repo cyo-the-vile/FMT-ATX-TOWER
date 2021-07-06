@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "pro micro")(type KiCad)(uri "D:/kicad/Towns Tower PSU/pro micro/pro micro")(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri "D:/kicad/Towns Tower PSU/pro micro/pro micro/promicro.pretty")(options "")(descr ""))
+  (lib (name "GEN 1 PSU CARD FMT")(type KiCad)(uri "D:/kicad/GEN 1 PSU CARD FMT")(options "")(descr ""))
+  (lib (name "GEN 1 PSU CARD")(type KiCad)(uri "D:/kicad/GEN 1 PSU CARD FMT/GEN 1 PSU CARD")(options "")(descr ""))
+)

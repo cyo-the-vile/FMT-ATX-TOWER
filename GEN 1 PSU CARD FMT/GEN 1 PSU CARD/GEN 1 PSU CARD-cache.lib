@@ -1,0 +1,110 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SamacSys_Parts_1935226
+#
+DEF SamacSys_Parts_1935226 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_1935226" 650 200 50 H V L CNN
+F2 "1935226" 650 100 50 H I L CNN
+F3 "https://www.phoenixcontact.com/online/portal/in?uri=pxc-oc-itemdetail:pid=1935226&library=inen&tab=1" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks PT 1.5/8-5.0-H" 650 -100 50 H I L CNN "Description"
+F5 "11.55" 650 -200 50 H I L CNN "Height"
+F6 "Phoenix Contact" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1935226" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "651-1935226" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935226?qs=8BCRtFWWXOTXBXrc3bdZaQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1935226" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1935226/phoenix-contact" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_39-28-1243
+#
+DEF SamacSys_Parts_39-28-1243 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_39-28-1243" 750 200 50 H V L CNN
+F2 "SHDR24W125P550X420_2X12_5160X960X1310P" 750 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/150e/0900766b8150e87e.pdf" 750 0 50 H I L CNN
+F4 "24 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 24 Way 2 Row Straight PCB Header, Solder Termination, 6A" 750 -100 50 H I L CNN "Description"
+F5 "13.1" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "39-28-1243" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-39-28-1243" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1243?qs=4XSMV6Twtb0I%2F4%252BTTSJFbg%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -1200 200 -1200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+X 16 16 900 -700 200 L 50 50 0 0 P
+X 17 17 0 -800 200 R 50 50 0 0 P
+X 18 18 900 -800 200 L 50 50 0 0 P
+X 19 19 0 -900 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 20 20 900 -900 200 L 50 50 0 0 P
+X 21 21 0 -1000 200 R 50 50 0 0 P
+X 22 22 900 -1000 200 L 50 50 0 0 P
+X 23 23 0 -1100 200 R 50 50 0 0 P
+X 24 24 900 -1100 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# promicro_ProMicro
+#
+DEF promicro_ProMicro U 0 40 Y Y 1 F N
+F0 "U" 0 950 60 H V C CNN
+F1 "promicro_ProMicro" 0 -550 60 H V C CNN
+F2 "" 100 -1050 60 H V C CNN
+F3 "" 100 -1050 60 H V C CNN
+DRAW
+S -500 850 500 -450 0 1 0 N
+X TX 1 -700 750 200 R 50 50 1 1 B
+X E6 10 -700 -150 200 R 50 50 1 1 B
+X B4 11 -700 -250 200 R 50 50 1 1 B
+X B5 12 -700 -350 200 R 50 50 1 1 B
+X B6 13 700 -350 200 L 50 50 1 1 B
+X B2 14 700 -250 200 L 50 50 1 1 B
+X B3 15 700 -150 200 L 50 50 1 1 B
+X B1 16 700 -50 200 L 50 50 1 1 B
+X F7 17 700 50 200 L 50 50 1 1 B
+X F6 18 700 150 200 L 50 50 1 1 B
+X F5 19 700 250 200 L 50 50 1 1 B
+X RX 2 -700 650 200 R 50 50 1 1 B
+X F4 20 700 350 200 L 50 50 1 1 B
+X VCC 21 700 450 200 L 50 50 1 1 W
+X RST 22 700 550 200 L 50 50 1 1 I
+X GND 23 700 650 200 L 50 50 1 1 W
+X RAW 24 700 750 200 L 50 50 1 1 w
+X GND 3 -700 550 200 R 50 50 1 1 W
+X GND 4 -700 450 200 R 50 50 1 1 W
+X SCL 5 -700 350 200 R 50 50 1 1 B
+X SDA 6 -700 250 200 R 50 50 1 1 B
+X D4 7 -700 150 200 R 50 50 1 1 B
+X C6 8 -700 50 200 R 50 50 1 1 B
+X D7 9 -700 -50 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
