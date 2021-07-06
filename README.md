@@ -2,6 +2,8 @@
 A modification to revive a dead FM Towns tower model
 
 
+https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/
+
 Uses an Arduino PRO Micro to control power on and TownsOS power off functions just like the original power supply.
 
 I would advise using the ITX minibix pico psu rated at 120watts and the EPS-120S-12 ACDC converter....Or grabbing a small ATX power supply, shedding the metal shielding and drilling holes into the PCB. It's safe to drill holes into the PCB for this circuitboard in the general area for the ATX PSU.
