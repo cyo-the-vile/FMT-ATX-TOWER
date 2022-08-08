@@ -106,36 +106,29 @@ S2
 Generation 1 Tower card 
 
 
- - Requires more testing.
+ - Requires more testing.  Should be safe for testing.
 
 
 Please follow precise instructions here:  https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/
 
-If you are not certain which wires go where, please contact me.
+VMS-180C-12
+VOF-180C-12
+VMS-200C-12
 
-Changes from those instructions include position of the ATX connector.  
-This is a 4 layer PCB. When fabricating be sure to select 4 layer PCB.
-F.Cu is layer 1 and it's GND
-Layer2 is Layer 2 and it's 5V
-Layer3 is Layer 3 and it's 12V
-B. Cu is layer 4 and it's GND
-
-Also a large amount of the ground was removed from the entire PCB. This enables the end user the option to disassemble a MINI ATX Power supply...and the intent is to bolt through this PCB.  It's safe to drill in this PCB if you follow the guidelines. Don't drill in the areas you aren't supposed to drill in.
+These are the recommended ACDC converters to place on the card.  The Generation 1 Towers appear to use more power.  A 160W Pico is recommended until further testing is completed.
 
 
 ジェネレーション1タワーカード
 
 日本人の友達、困ったら連絡してください。 TWITTER@cyo.the.vile
 
-ここで正確な指示に従ってください：https：//townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/
+- さらにテストが必要です。テストのために安全でなければなりません。
 
-どのワイヤーがどこに行くのかわからない場合は、私に連絡してください。
 
-これらの手順からの変更には、ATXコネクタの位置が含まれます。
-これは4層PCBです。製造するときは、必ず4層PCBを選択してください。
-F.Cuはレイヤー1であり、GNDです。
-Layer2はLayer2であり、5Vです。
-Layer3はLayer3で、12Vです。
-B. Cuはレイヤー4であり、GNDです。
+こちらの正確な指示に従ってください: https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/
 
-また、PCB全体から大量の地面が除去されました。これにより、エンドユーザーはMINI ATX電源を分解するオプションが可能になります...その目的は、このPCBをボルトで固定することです。ガイドラインに従えば、このPCBにドリルで穴を開けても安全です。ドリルインするはずのない領域をドリルインしないでください。
+VMS-180C-12
+VOF-180C-12
+VMS-200C-12
+
+これらは、カードに配置する推奨 ACDC コンバータです。第 1 世代のタワーは、より多くの電力を使用しているようです。 さらなるテストが完了するまでは、160W Pico をお勧めします。
