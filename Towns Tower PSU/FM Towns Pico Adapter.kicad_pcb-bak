@@ -1,11 +1,11 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.9)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.10)-1")
 
   (general
     (thickness 1.6)
-    (drawings 27)
+    (drawings 18)
     (tracks 59)
     (zones 0)
-    (modules 18)
+    (modules 21)
     (nets 34)
   )
 
@@ -166,8 +166,89 @@
     (add_net "Net-(U1-Pad8)")
   )
 
+  (module MountingHole:MountingHole_3.5mm_Pad_Via (layer Top) (tedit 56DDBDB4) (tstamp 62F14AD8)
+    (at 112.9856 48.5751 90)
+    (descr "Mounting Hole 3.5mm")
+    (tags "mounting hole 3.5mm")
+    (attr virtual)
+    (fp_text reference PAD1 (at 0 -4.5 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.5mm_Pad_Via (at 0 4.5 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.75 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 7 7) (drill 3.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 2.625 0 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 1.856155 1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 2.625 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -1.856155 1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -2.625 0 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -1.856155 -1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 -2.625 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 1.856155 -1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHole:MountingHole_3.5mm_Pad_Via (layer Top) (tedit 56DDBDB4) (tstamp 62F14A51)
+    (at 208.2356 93.0251 90)
+    (descr "Mounting Hole 3.5mm")
+    (tags "mounting hole 3.5mm")
+    (attr virtual)
+    (fp_text reference PAD1 (at 0 -4.5 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.5mm_Pad_Via (at 0 4.5 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.75 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 7 7) (drill 3.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 2.625 0 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 1.856155 1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 2.625 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -1.856155 1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -2.625 0 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -1.856155 -1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 -2.625 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 1.856155 -1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHole:MountingHole_3.5mm_Pad_Via (layer Top) (tedit 56DDBDB4) (tstamp 62F14915)
+    (at 112.9856 93.0251 90)
+    (descr "Mounting Hole 3.5mm")
+    (tags "mounting hole 3.5mm")
+    (attr virtual)
+    (fp_text reference PAD1 (at 0 -4.5 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.5mm_Pad_Via (at 0 4.5 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.75 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 1.856155 -1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 -2.625 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -1.856155 -1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -2.625 0 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -1.856155 1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 2.625 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 1.856155 1.856155 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 2.625 0 90) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0 90) (size 7 7) (drill 3.5) (layers *.Cu *.Mask))
+  )
+
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer Top) (tedit 56DDBDB4) (tstamp 607C4A7B)
-    (at 149.5235 133.373 90)
+    (at 163.5951 118.4886 90)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (attr virtual)
@@ -194,7 +275,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer Top) (tedit 56DDBDB4) (tstamp 607C4A6C)
-    (at 194.2275 133.8175 90)
+    (at 208.2356 118.9331 90)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (attr virtual)
@@ -221,7 +302,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer Top) (tedit 56DDBDB4) (tstamp 607C4A5D)
-    (at 149.714 63.7135 90)
+    (at 163.5951 48.5751 90)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (attr virtual)
@@ -248,7 +329,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer Top) (tedit 56DDBDB4) (tstamp 607C4A4E)
-    (at 194.164 63.4595 90)
+    (at 208.2356 48.5751 90)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (attr virtual)
@@ -1014,17 +1095,9 @@
       (net 9 /FM_PS_OFF_N))
   )
 
-  (gr_line (start 146.666 136.7385) (end 197.4025 136.7385) (layer F.SilkS) (width 0.12) (tstamp 607C4A8D))
-  (gr_line (start 197.466 60.602) (end 146.666 60.602) (layer F.SilkS) (width 0.12) (tstamp 607C4A8C))
-  (gr_line (start 146.666 60.602) (end 146.6025 136.7385) (layer F.SilkS) (width 0.12) (tstamp 607C4A8B))
-  (gr_line (start 197.466 60.602) (end 197.466 136.7385) (layer F.SilkS) (width 0.12) (tstamp 607C4A8A))
+  (gr_line (start 40.132 22.0345) (end 40.132 22.225) (layer Edge.Cuts) (width 0.1524) (tstamp 62F14EB8))
   (gr_line (start 40.18 22.08) (end 40.19 22.08) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 40.18 22.23) (end 40.18 22.08) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 40.08 22.02) (end 40.2 22.07) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 40.08 22.24) (end 40.08 22.02) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 40.09 22.03) (end 40.09 22.25) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 40.21 22.02) (end 40.21 22.03) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 40.13 22.29) (end 40.21 22.02) (layer Edge.Cuts) (width 0.05))
   (gr_text "+12V\n" (at 228.06 157.44) (layer F.SilkS) (tstamp 6067BA7F)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -1042,7 +1115,6 @@
   (gr_text "Tower Power Supply\n\n@cyo.the.vile" (at 76.48 52.49) (layer F.SilkS)
     (effects (font (size 3 3) (thickness 0.15)))
   )
-  (gr_line (start 40.132 22.225) (end 40.132 22.0345) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 230.124 22.098) (end 230.124 173.482) (layer Edge.Cuts) (width 0.1524))
   (gr_line (start 40.132 173.609) (end 230.124 173.482) (layer Edge.Cuts) (width 0.1524))
   (gr_line (start 40.132 60.706) (end 40.132 22.225) (layer Edge.Cuts) (width 0.1524))
@@ -1110,7 +1182,7 @@
   (segment (start 64.834541 136.014579) (end 64.834541 90.548001) (width 0.75) (layer Top) (net 12))
   (segment (start 60.29316 140.55596) (end 64.834541 136.014579) (width 0.75) (layer Top) (net 12))
 
-  (zone (net 3) (net_name +12V) (layer Bottom) (tstamp 0) (hatch edge 0.508)
+  (zone (net 3) (net_name +12V) (layer Bottom) (tstamp 62F14EF7) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1159,7 +1231,7 @@
       )
     )
   )
-  (zone (net 3) (net_name +12V) (layer Bottom) (tstamp 0) (hatch edge 0.508)
+  (zone (net 3) (net_name +12V) (layer Bottom) (tstamp 62F14EF4) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1190,7 +1262,7 @@
       )
     )
   )
-  (zone (net 2) (net_name +5V) (layer Top) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name +5V) (layer Top) (tstamp 62F14EF1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1314,7 +1386,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 62F14EEE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1387,13 +1459,18 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 62F14EEB) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 50.30216 100.83292) (xy 50.28692 100.838) (xy 45.86224 100.8634) (xy 45.71492 73.57364) (xy 50.29708 73.55332)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.175105 100.541497) (xy 50.161529 100.527921) (xy 50.175102 100.524753)
       )
     )
     (filled_polygon
@@ -1505,8 +1582,127 @@
         (xy 49.276 74.242395) (xy 49.290143 74.228253)
       )
     )
+    (filled_polygon
+      (pts
+        (xy 50.17484 99.119186) (xy 50.161529 99.116079) (xy 50.174837 99.102771)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.09879 98.284398) (xy 50.174671 98.208517) (xy 50.174798 98.89561) (xy 50.09879 98.819602) (xy 49.981921 98.936471)
+        (xy 49.928534 98.707799) (xy 49.698626 98.601905) (xy 49.483038 98.550224) (xy 49.602449 98.53127) (xy 49.839896 98.443578)
+        (xy 49.928534 98.396201) (xy 49.981921 98.167529)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.174632 98.001024) (xy 50.161529 97.987921) (xy 50.174629 97.984863)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.174368 96.579076) (xy 50.161529 96.576079) (xy 50.174365 96.563243)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.09879 95.744398) (xy 50.174198 95.66899) (xy 50.174326 96.355138) (xy 50.09879 96.279602) (xy 49.981921 96.396471)
+        (xy 49.928534 96.167799) (xy 49.698626 96.061905) (xy 49.483038 96.010224) (xy 49.602449 95.99127) (xy 49.839896 95.903578)
+        (xy 49.928534 95.856201) (xy 49.981921 95.627529)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.174159 95.460551) (xy 50.161529 95.447921) (xy 50.174156 95.444973)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.173895 94.038965) (xy 50.161529 94.036079) (xy 50.173892 94.023716)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.09879 93.204398) (xy 50.173725 93.129463) (xy 50.173853 93.814665) (xy 50.09879 93.739602) (xy 49.981921 93.856471)
+        (xy 49.928534 93.627799) (xy 49.698626 93.521905) (xy 49.483038 93.470224) (xy 49.602449 93.45127) (xy 49.839896 93.363578)
+        (xy 49.928534 93.316201) (xy 49.981921 93.087529)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.173686 92.920078) (xy 50.161529 92.907921) (xy 50.173683 92.905084)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.173422 91.498855) (xy 50.161529 91.496079) (xy 50.173419 91.484189)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.09879 90.664398) (xy 50.173253 90.589935) (xy 50.17338 91.274192) (xy 50.09879 91.199602) (xy 49.981921 91.316471)
+        (xy 49.928534 91.087799) (xy 49.698626 90.981905) (xy 49.483038 90.930224) (xy 49.602449 90.91127) (xy 49.839896 90.823578)
+        (xy 49.928534 90.776201) (xy 49.981921 90.547529)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.173214 90.379606) (xy 50.161529 90.367921) (xy 50.173211 90.365194)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.172949 88.958745) (xy 50.161529 88.956079) (xy 50.172946 88.944662)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.09879 88.124398) (xy 50.17278 88.050408) (xy 50.172907 88.733719) (xy 50.09879 88.659602) (xy 49.981921 88.776471)
+        (xy 49.928534 88.547799) (xy 49.698626 88.441905) (xy 49.483038 88.390224) (xy 49.602449 88.37127) (xy 49.839896 88.283578)
+        (xy 49.928534 88.236201) (xy 49.981921 88.007529)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.172741 87.839133) (xy 50.161529 87.827921) (xy 50.172738 87.825305)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.172476 86.418634) (xy 50.161529 86.416079) (xy 50.172473 86.405135)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.09879 85.584398) (xy 50.172307 85.510881) (xy 50.172434 86.193246) (xy 50.09879 86.119602) (xy 49.981921 86.236471)
+        (xy 49.928534 86.007799) (xy 49.698626 85.901905) (xy 49.483038 85.850224) (xy 49.602449 85.83127) (xy 49.839896 85.743578)
+        (xy 49.928534 85.696201) (xy 49.981921 85.467529)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.172267 85.298659) (xy 50.161529 85.287921) (xy 50.172265 85.285415)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.172003 83.878524) (xy 50.161529 83.876079) (xy 50.172001 83.865607)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.09879 83.044398) (xy 50.171834 82.971354) (xy 50.171961 83.652773) (xy 50.09879 83.579602) (xy 49.981921 83.696471)
+        (xy 49.928534 83.467799) (xy 49.698626 83.361905) (xy 49.483038 83.310224) (xy 49.602449 83.29127) (xy 49.839896 83.203578)
+        (xy 49.928534 83.156201) (xy 49.981921 82.927529)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 50.171794 82.758186) (xy 50.161529 82.747921) (xy 50.171792 82.745526)
+      )
+    )
   )
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 62F14EE8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

@@ -6,41 +6,107 @@ https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/
 
 Uses an Arduino PRO Micro to control power on and TownsOS power off functions just like the original power supply.
 
-I would advise using the ITX minibix pico psu rated at 120watts and the EPS-120S-12 ACDC converter....Or grabbing a small ATX power supply, shedding the metal shielding and drilling holes into the PCB. It's safe to drill holes into the PCB for this circuitboard in the general area for the ATX PSU.
+Some of the mounting holes might not be exact.  At a later time, I need to measure the holes again but I don't own an original PCB anymore.  It is safe to file and cut around the screw points on the outer edges.
 
-To make yourself some boards you will want to send the gerber ZIP file to JLCPCB or another fabrication service.  
+To order a PCB, go to factory output folder and select the RAR file.
 
-Connector part number is PCN13-44S-2.54DS.  It's a connector still made but if you can't find it you can cannibalize a connector from your dead PSU.
-ATX connector part number is 39-28-1243.  You can also use the 20 pin connector but I cannot be asked to find the part number at this time.
 
-Program the Arduino Pro micro in Arduino IDE with INO file.  Usually it's identified as an Arduino Leonardo board.
+Works on the following models:
 
-Solder it all together and you have revived your dead computer. Oh don't forget the 2.54mm male pin headers. Solder two of them for the stock fan in the labeled area
+1F
+2F
+SF
+SH
+1H
+2H
+10F
+20F
+40H
+80H
+SF2
+SH2
+CX10
+CX20
+CX40
+CX100
+
+It WILL NOT WORK for the following models:
+
+S1
+S2
+MODEL1
+MODEL2
+
+
+You will need the following parts:
+
+1    PCN13-44S-2.54DS
+1	 39-28-1243    or you can use 39-28-1203.    It is preffered to use 39-28-1243
+1    Arduino Pro Micro and Micro USB cable.  You need to load the firmware for the Arduino Pro Micro
+1    Some male 2.54mm pin headers.
+1    Pico PSU rated at 90W or higher such as this one   https://www.mini-box.com/picoPSU-90     The prototype was tested with a 160W but I have found 90W is fine.
+		Pico PSU have been cloned and the performance of them might vary. I would recommend using the authentic mini-box brand.
+1    AC/DC Converter.  The board can physically fit the EPS-120-12 or the EPS-120S-12.  Basically an ACDC Converter that outputs 12V in a 2x3 or 2x4 (those are inches) form factor is fine.
 
 日本人にとって、機械翻訳です。 あなたが困難を持っている場合は、Twitterで私に連絡してください。@cyothevile
 
 
-死んだFMタウンズタワーモデルを復活させる変更
+死んだFMタウンズタワーモデルを復活させるための修正
 
-Arduino PRO マイクロを使用して電源オンを制御し、元の電源と同様に、TownsOS の電源オフ機能を制御します。
+https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/
 
-私は120ワットで評価されたITXミニビックスピコpsuとEPS-120S-12 ACDCコンバータを使用することをお勧めします。または小さなATX電源をつかんで、金属シールドを流し、PCBに穴を開けます。ATX PSUの一般的な領域で、この回路基板のPCBに穴を開けても安全です。
+Arduino PRO Microを使用して、元の電源と同様に電源オンとTownsOSの電源オフ機能を制御します。
+
+取り付け穴の中には、正確でないものもあります。 後で、私は再び穴を測定する必要がありますが、私はもう元のPCBを所有していません。 外縁のネジ点の周りをヤスリで留めて切断しても安全です。
+
+PCBを注文するには、工場出荷時の出力フォルダに移動し、RARファイルを選択します。
+
+次のモデルで動作します。
+
+1F
+2F
+SF
+SH
+1H
+2H
+10F
+20F
+40H
+80H
+SF2
+SH2
+CX10
+CX20
+CX40
+CX100
+
+次のモデルでは動作しません。
+
+S1
+S2 
+モデル1 or Model 1
+モデル2 or Model 2
+
+次の部品が必要です。
 
 
-あなた自身にいくつかのボードを作るために、あなたはJLCPCBまたは別の製造サービスにガーバーZIPファイルを送信したいと思うでしょう。 
+次の部品が必要です。
 
-コネクタの部品番号は PCN13-44S-2.54DS です。 それはまだ作られたコネクタですが、あなたがそれを見つけることができない場合は、あなたの死んだPSUからコネクタをカニバライズすることができます。
-ATXコネクタの部品番号は39-28-1243です。 20ピンコネクタも使用できますが、現時点では部品番号を確認できません。
-
-INOファイルとアルドゥイノIDEでアルドゥイノプロマイクロをプログラムします。 通常、それはアルドゥイノレオナルドボードとして識別されます。
-
-一緒にそれをすべてはんだ、あなたは死んだコンピュータを復活しました。
+1 PCN13-44S-2.54DS
+1 39-28-1243 または 39-28-1203 を使用できます。   39-28-1243 を使用することをお勧めします。
+1 ArduinoプロマイクロとマイクロUSBケーブル。 Arduinoプロマイクロのファームウェアをロードする必要があります
+1 いくつかのオス2.54mmピンヘッダー。
+1 Pico PSUは、このような90W以上で定格 https://www.mini-box.com/picoPSU-90 プロトタイプは160Wでテストされましたが、90Wは問題ありません。
+		Pico PSUはクローン化されており、それらのパフォーマンスは異なる場合があります。私は本物のミニボックスブランドを使用することをお勧めします。
+1 AC / DCコンバータ。 ボードはEPS-120-12またはEPS-120S-12に物理的にフィットすることができます。 基本的に、2x3または2x4(これらはインチ)のフォームファクタで12Vを出力するACDCコンバータは問題ありません。
 
 
 ******************************************************
 
 Generation 1 Tower card 
 
+
+ - Requires more testing.
 
 
 Please follow precise instructions here:  https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/
