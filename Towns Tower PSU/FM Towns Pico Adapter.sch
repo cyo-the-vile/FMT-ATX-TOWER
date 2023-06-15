@@ -554,36 +554,115 @@ FM_PS_ON_N
 Wire Wire Line
 	3350 2800 4150 2800
 $Comp
-L Imported_Parts:47053-1000 NOCTUA_FAN1
-U 1 1 607D9E9B
-P 7050 3150
-F 0 "NOCTUA_FAN1" H 7678 3046 50  0000 L CNN
-F 1 "47053-1000" H 7678 2955 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 7700 3250 50  0001 L CNN
-F 3 "http://www.molex.com/pdm_docs/sd/470531000_sd.pdf" H 7700 3150 50  0001 L CNN
-F 4 "MOLEX - 47053-1000 - HEADER, 4POS, 1ROW, 2.54MM" H 7700 3050 50  0001 L CNN "Description"
-F 5 "8" H 7700 2950 50  0001 L CNN "Height"
-F 6 "Molex" H 7700 2850 50  0001 L CNN "Manufacturer_Name"
-F 7 "47053-1000" H 7700 2750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "538-47053-1000" H 7700 2650 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Molex/47053-1000/?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D" H 7700 2550 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 7700 2450 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 7700 2350 50  0001 L CNN "Arrow Price/Stock"
-	1    7050 3150
+L SamacSys_Parts:SLG46826G GP1
+U 1 1 648C70A9
+P 7850 2200
+F 0 "GP1" H 8400 2465 50  0000 C CNN
+F 1 "SLG46826G" H 8400 2374 50  0000 C CNN
+F 2 "SamacSys_Parts:SOP65P640X120-20N" H 8800 2300 50  0001 L CNN
+F 3 "https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-system-programmability/slg46826-greenpak-programmable-mixed-signal-matrix-system-programmability" H 8800 2200 50  0001 L CNN
+F 4 "The SLG46826 provides a small, low power component for commonly used mixed-signal functions. The user creates the circuit design by programming the multiple time Non-Volatile Memory (NVM) to configure the interconnect logic, the IOs and the macrocells of the SLG46826. This highly versatile device allows a wide variety of mixed-signal functions to be designed within a very small, low power single integrated circuit.This product is available in both the Dual Supply GreenPAK and GreenPAK with In-System P" H 8800 2100 50  0001 L CNN "Description"
+F 5 "1.2" H 8800 2000 50  0001 L CNN "Height"
+F 6 "Renesas Electronics" H 8800 1900 50  0001 L CNN "Manufacturer_Name"
+F 7 "SLG46826G" H 8800 1800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "724-SLG46826G" H 8800 1700 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/SLG46826G?qs=%252B6g0mu59x7Lz4SMy5idICg%3D%3D" H 8800 1600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8800 1500 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 8800 1400 50  0001 L CNN "Arrow Price/Stock"
+	1    7850 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3150 6650 3150
+	7850 3100 7600 3100
+$Comp
+L FM_Towns_Pico_Adapter-eagle-import:GND #GND0103
+U 1 1 648C83CB
+P 7500 3100
+F 0 "#GND0103" H 7500 3100 50  0001 C CNN
+F 1 "GND" H 7400 3000 59  0000 L BNN
+F 2 "" H 7500 3100 50  0001 C CNN
+F 3 "" H 7500 3100 50  0001 C CNN
+	1    7500 3100
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6650 3150 6650 3100
+	8950 2200 9200 2200
+Text Label 9730 2160 0    70   ~ 0
+5V_STBY
+Text Label 6930 2790 2    70   ~ 0
+5V_STBY
+$Comp
+L Device:C C1
+U 1 1 648E94D3
+P 9200 2050
+F 0 "C1" H 9315 2096 50  0000 L CNN
+F 1 "0.1uf" H 9315 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9238 1900 50  0001 C CNN
+F 3 "~" H 9200 2050 50  0001 C CNN
+	1    9200 2050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7050 3450 6650 3450
+	9200 2200 9730 2200
 Wire Wire Line
-	7050 3350 6650 3350
+	9730 2200 9730 2160
+Connection ~ 9200 2200
+$Comp
+L FM_Towns_Pico_Adapter-eagle-import:GND #GND0104
+U 1 1 648FD4E0
+P 9200 1800
+F 0 "#GND0104" H 9200 1800 50  0001 C CNN
+F 1 "GND" H 9100 1700 59  0000 L BNN
+F 2 "" H 9200 1800 50  0001 C CNN
+F 3 "" H 9200 1800 50  0001 C CNN
+	1    9200 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L FM_Towns_Pico_Adapter-eagle-import:GND #GND0105
+U 1 1 64903BFF
+P 7210 2400
+F 0 "#GND0105" H 7210 2400 50  0001 C CNN
+F 1 "GND" H 7110 2300 59  0000 L BNN
+F 2 "" H 7210 2400 50  0001 C CNN
+F 3 "" H 7210 2400 50  0001 C CNN
+	1    7210 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 64903BF9
+P 7210 2650
+F 0 "C2" H 7325 2696 50  0000 L CNN
+F 1 "0.1uf" H 7325 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7248 2500 50  0001 C CNN
+F 3 "~" H 7210 2650 50  0001 C CNN
+	1    7210 2650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7050 3250 6650 3250
-Text Label 6650 3450 0    50   ~ 0
-GND
-Text Label 6650 3350 0    50   ~ 0
-+12V
+	7210 2800 7850 2800
+Wire Wire Line
+	7210 2800 6930 2800
+Wire Wire Line
+	6930 2800 6930 2790
+Connection ~ 7210 2800
+Wire Wire Line
+	7850 2200 7850 1680
+Wire Wire Line
+	7850 2300 7470 2300
+Wire Wire Line
+	7470 1820 7470 2300
+Wire Wire Line
+	7850 2400 7360 2400
+Wire Wire Line
+	7360 2400 7360 1940
+Text Label 6560 1940 0    70   ~ 0
+FM_PS_ON_N
+Wire Wire Line
+	6560 1940 7360 1940
+Text Label 7850 1680 0    50   ~ 0
+PS_ON
+Text Label 7470 1820 2    50   ~ 0
+FM_PS_OFF_N
 $EndSCHEMATC
