@@ -2,7 +2,7 @@
 A modification to revive a dead FM Towns tower model
 
 
-https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/
+[https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/](https://web.archive.org/web/20230320093739/https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/)
 
 Uses an Arduino PRO Micro to control power on and TownsOS power off functions just like the original power supply.
 
@@ -41,19 +41,19 @@ MODEL2
 You will need the following parts:
 
 1    PCN13-44S-2.54DS
-1	 39-28-1243    or you can use 39-28-1203.    It is preffered to use 39-28-1243
+1	 39-28-1243    or you can use 39-28-1203.    It is preferred to use 39-28-1243
 1    Arduino Pro Micro and Micro USB cable.  You need to load the firmware for the Arduino Pro Micro
 1    Some male 2.54mm pin headers.
-1    Pico PSU rated at 90W or higher such as this one   https://www.mini-box.com/picoPSU-90     The prototype was tested with a 160W but I have found 90W is fine.
-		Pico PSU have been cloned and the performance of them might vary. I would recommend using the authentic mini-box brand.
-1    AC/DC Converter.  The board can physically fit the EPS-120-12 or the EPS-120S-12.  Basically an ACDC Converter that outputs 12V in a 2x3 or 2x4 (those are inches) form factor is fine.
+1    Pico PSU rated at 90W or higher such as this one   https://www.mini-box.com/picoPSU-90     The prototype was tested with 160W but I have found 90W is fine.
+		Pico PSU have been cloned and their performance might vary. I recommend using the authentic mini-box brand.
+1    AC/DC Converter.  The board can physically fit the EPS-120-12 or the EPS-120S-12.  Basically, an ACDC Converter that outputs 12V in a 2x3 or 2x4 (those are inches) form factor is fine.
 
 日本人にとって、機械翻訳です。 あなたが困難を持っている場合は、Twitterで私に連絡してください。@cyothevile
 
 
 死んだFMタウンズタワーモデルを復活させるための修正
 
-https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/
+[https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/](https://web.archive.org/web/20230320093739/https://townsworld.com/2021/05/08/fm-towns-tower-power-supply-assembly-guide/)
 
 Arduino PRO Microを使用して、元の電源と同様に電源オンとTownsOSの電源オフ機能を制御します。
 
@@ -109,7 +109,7 @@ Generation 1 Tower card
  - Requires more testing.  Should be safe for testing.
 
 
-Please follow precise instructions here:  https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/
+Please follow precise instructions here:  [https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/](https://web.archive.org/web/20230603034252/https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/)
 
 VMS-180C-12
 VOF-180C-12
@@ -125,7 +125,7 @@ These are the recommended ACDC converters to place on the card.  The Generation 
 - さらにテストが必要です。テストのために安全でなければなりません。
 
 
-こちらの正確な指示に従ってください: https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/
+こちらの正確な指示に従ってください: [https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/](https://web.archive.org/web/20230603034252/https://townsworld.com/2021/06/01/fm-towns-power-supply-generation-1/)
 
 VMS-180C-12
 VOF-180C-12
